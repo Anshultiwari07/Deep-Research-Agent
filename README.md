@@ -1,0 +1,241 @@
+<<<<<<< HEAD
+🚀 Deep Research Agent — Multi-Agent AI for Automated Research
+=======
+<p align="center">
+  <img src="assets/banner.png" alt="Deep Research Agent Banner" />
+</p>
+
+<p align="center">
+  <img src="assets/logo.png" alt="Deep Research Agent Logo" width="140" />
+</p>
+>>>>>>> e115aab (Updated premium README)
+
+<h1 align="center">🚀 Deep Research Agent — Multi-Agent AI for Automated Research</h1>
+
+<p align="center">
+  A next-generation multi-agent system that performs complete company research with automated planning, web intelligence, analysis, validation, and memo generation — all inside a premium ChatGPT-style interface.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/AI%20MultiAgent-LangGraph-10A37F?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Frontend-React%20%2F%20Vite-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Backend-FastAPI-009485?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/LLM-Orchestration-purple?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/UI-Premium%20ChatGPT%20Style-orange?style=for-the-badge" />
+</p>
+
+---
+
+## 🌟 Overview
+
+The **Deep Research Agent** turns a plain natural-language question into a **polished, analyst-grade research memo** using a chain of intelligent LLM agents.
+
+**It performs:**
+
+- 🧠 Intelligent task planning  
+- 🌐 Automated web & document research  
+- 🔍 Evidence verification  
+- 🗂️ Content curation & structuring  
+- ✍️ Memo drafting using formatting standards  
+- 💬 Beautiful animated ChatGPT-style UI  
+
+Everything happens **automatically** through multi-agent reasoning.
+
+---
+
+## 🎨 UI Preview (Frontend)
+
+> Replace this placeholder screenshot with your real UI later.
+
+<<<<<<< HEAD
+Editor Agent – writes the final polished memo
+=======
+<p align="center">
+  <img src="https://via.placeholder.com/950x480/0F0F0F/FFFFFF?text=Deep+Research+Agent+UI+Preview" />
+</p>
+>>>>>>> e115aab (Updated premium README)
+
+---
+
+## 🧩 Key Features
+
+### 🔹 Multi-Agent Intelligence (LangGraph)
+- **Planner Agent** → breaks the query into structured subtasks  
+- **Analyst Agent** → performs contextual web search + extraction  
+- **Curator Agent** → validates, filters, deduplicates content  
+- **Editor Agent** → writes clean, professional research reports  
+
+### 🔹 Modern ChatGPT-Style Interface
+- Gradient chat bubbles  
+- Smooth message animations  
+- “Agent is thinking…” status indicators  
+- Auto-scroll + drag navigation  
+- Markdown formatting  
+- Light/Dark theme  
+- History & new chat sessions  
+
+### 🔹 Quality Research Output
+- Analyst-grade summaries  
+- Structured sections  
+- Clean headings, lists  
+- Evidence-driven writing  
+- Supports future PDF/DOCX export  
+
+---
+
+## 🧠 System Architecture
+
+<<<<<<< HEAD
+Toast notifications
+
+History panel + “New Chat”
+
+Light/Dark theme toggle
+
+🔹 Rich Markdown Reports
+
+Clean typography
+
+Headings, lists, structured formatting
+
+Analyst-grade memo clarity
+
+Beautiful readability
+
+🔹 Zero-Config Setup
+
+Backend: Python + FastAPI
+
+Frontend: React + Vite
+
+Orchestration: LangGraph
+
+Research Tools: Auto Web + RAG
+
+🧠 Architecture
+graph TD
+    U[User / Recruiter] --> UI[React + Vite\nChat-style Frontend]
+    UI --> API[FastAPI Backend\n/research endpoint]
+    API --> LG[LangGraph\nMulti-Agent Orchestrator]
+
+    LG --> P[Planner Agent\nTask Breakdown]
+    LG --> A[Analyst Agent\nWeb + Docs Research]
+    LG --> C[Curator Agent\nValidation & Evidence]
+    LG --> E[Editor Agent\nFinal Memo Writer]
+
+    A --> WEB[Auto Web / Search APIs\nCrawl & Extract]
+    A --> RAG[VectorDB / RAG Store]
+    C --> RAG
+    RAG --> LG
+
+    E --> MEMO[Final Research Memo\n(Markdown)]
+    MEMO --> UI
+
+=======
+```mermaid
+graph TD
+    U[User / Recruiter] --> UI[React + Vite<br/>Chat Interface]
+    UI --> API[FastAPI Backend<br/>/research Endpoint]
+
+    API --> LG[LangGraph<br/>Multi-Agent Engine]
+
+    LG --> P[Planner Agent<br/>Task Breakdown]
+    LG --> A[Analyst Agent<br/>Web Research + Extraction]
+    LG --> C[Curator Agent<br/>Validation & Cleanup]
+    LG --> E[Editor Agent<br/>Final Memo Generation]
+
+    A --> WEB[Web Scrapers / Search APIs]
+    A --> RAG[RAG / VectorDB]
+    C --> RAG
+    RAG --> LG
+
+    E --> MEMO[Final Report<br/>(Markdown)]
+    MEMO --> UI
+>>>>>>> e115aab (Updated premium README)
+📦 Installation
+1️⃣ Clone the repository
+git clone https://github.com/Anshultiwari07/Deep-Research-Agent.git
+cd Deep-Research-Agent
+
+⚙️ Backend Setup (FastAPI)
+pip install -r requirements.txt
+uvicorn main:app --reload
+
+
+Runs at:
+👉 http://127.0.0.1:8000
+
+💻 Frontend Setup (React + Vite)
+cd frontend
+npm install
+npm run dev
+
+
+Runs at:
+👉 http://127.0.0.1:5173
+
+🔑 Environment Variables
+
+Create a .env in the project root:
+
+HF_API_KEY=your_key
+TAVILY_API_KEY=your_key
+
+
+✔ .env is already ignored in .gitignore.
+
+🖼 Branding Assets
+assets/
+   ├── banner.png      # GitHub banner
+   └── logo.png        # Project logo
+
+🤝 Contributing
+
+<<<<<<< HEAD
+PRs and ideas welcome — especially around:
+=======
+Contributions are welcome!
+You can improve:
+>>>>>>> e115aab (Updated premium README)
+
+Agent logic
+
+UI/UX styling
+
+Research quality
+
+Integrations (LinkedIn, Crunchbase, SEC, etc.)
+
+Submit a PR anytime.
+
+⭐ Support the Project
+
+If this project helped you:
+
+⭐ Star the repo
+
+🧑‍💻 Use it in your workflows
+
+📢 Share it with others
+
+Every star motivates further improvements!
+
+🔮 Roadmap
+
+⏳ Live-streamed output tokens
+
+📄 PDF / DOCX export
+
+🧩 Plugin-style agent modules
+
+📊 Analytics dashboard
+
+🧠 Multi-model routing (OpenAI + HF + Local)
+
+<<<<<<< HEAD
+<p align="center">Built by <b>Anshul Tiwari</b></p>
+=======
+🌐 Domain-specific research extensions
+
+<p align="center"> Built by <b>Anshul Tiwari</b> </p> ```
+>>>>>>> e115aab (Updated premium README)
