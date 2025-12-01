@@ -51,25 +51,25 @@ Everything happens **automatically** through multi-agent reasoning.
 
 ### 🔹 Multi-Agent Intelligence (LangGraph)
 - **Planner Agent** → breaks the query into structured subtasks  
-- **Analyst Agent** → performs contextual web search + extraction  
-- **Curator Agent** → validates, filters, deduplicates content  
-- **Editor Agent** → writes clean, professional research reports  
+- **Analyst Agent** → contextual web search + extraction  
+- **Curator Agent** → validation & cleanup  
+- **Editor Agent** → polished research memo  
 
 ### 🔹 Modern ChatGPT-Style Interface
 - Gradient chat bubbles  
-- Smooth message animations  
-- “Agent is thinking…” status indicators  
-- Auto-scroll + drag navigation  
-- Markdown formatting  
-- Light/Dark theme  
-- History & new chat sessions  
+- Smooth animations  
+- “Agent is thinking…” indicators  
+- Auto-scroll  
+- Markdown support  
+- Light/Dark Theme  
+- Chat history  
 
-### 🔹 Quality Research Output
+### 🔹 High-Quality Research Output
 - Analyst-grade summaries  
 - Structured sections  
-- Clean headings, lists  
-- Evidence-driven writing  
-- Supports future PDF/DOCX export  
+- Clean typography  
+- Evidence-based writing  
+- Future PDF/DOCX export  
 
 ---
 
@@ -95,75 +95,37 @@ graph TD
     E --> MEMO[Final Report<br/>(Markdown)]
     MEMO --> UI
 
-📦 Installation
-1️⃣ Clone the repository
+
+## 📦 Installation
+
+### 1️⃣ Clone Repository
+```bash
 git clone https://github.com/Anshultiwari07/Deep-Research-Agent.git
 cd Deep-Research-Agent
 
-2️⃣ ⚙️ Backend Setup (FastAPI)
+# Backend 
 pip install -r requirements.txt
 uvicorn main:app --reload
 
+Backend → http://127.0.0.1:8000
 
-Backend runs at:
-👉 http://127.0.0.1:8000
-
-3️⃣ 💻 Frontend Setup (React + Vite)
+# Frontend
 cd frontend
 npm install
 npm run dev
 
+Frontend → http://127.0.0.1:5173
 
-Frontend runs at:
-👉 http://127.0.0.1:5173
+## 🔑 Environment Variables
 
-🔑 Environment Variables
+Create a `.env` file in the project root:
 
-Create a .env in the project root:
-
+```env
 HF_API_KEY=your_key
 TAVILY_API_KEY=your_key
 
+<p align="center"><b>Built by Anshul Tiwari</b></p>
 
 
-🤝 Contributing
 
-Contributions are welcome! You can improve:
 
-Agent logic
-
-UI/UX styling
-
-Research quality
-
-Integrations (LinkedIn, Crunchbase, SEC, etc.)
-
-Submit a PR anytime.
-
-⭐ Support the Project
-
-If this project helped you:
-
-⭐ Star the repo
-
-🧑‍💻 Use it in your workflows
-
-📢 Share it with others
-
-Every star motivates further improvements!
-
-🔮 Roadmap
-
-⏳ Live-streamed output tokens
-
-📄 PDF / DOCX export
-
-🧩 Plugin-style agent modules
-
-📊 Analytics dashboard
-
-🧠 Multi-model routing (OpenAI + HF + Local)
-
-🌐 Domain-specific research extensions
-
-<p align="center"> Built by <b>Anshul Tiwari</b> </p> ```
