@@ -73,7 +73,7 @@ Everything happens **automatically** through multi-agent reasoning.
 
 ## 🧠 System Architecture
 
-```mermaid
+mermaid
 graph TD
     U[User / Recruiter] --> UI[React + Vite<br/>Chat Interface]
     UI --> API[FastAPI Backend<br/>/research Endpoint]
@@ -118,7 +118,7 @@ Frontend → http://127.0.0.1:5173
 
 Create a `.env` file in the project root:
 
-```env
+env
 HF_API_KEY=your_key
 TAVILY_API_KEY=your_key
 
