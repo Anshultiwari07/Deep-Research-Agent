@@ -41,10 +41,8 @@ Everything happens **automatically** through multi-agent reasoning.
 
 ## 🎨 UI Preview (Frontend)
 
-> Replace this placeholder screenshot with your real UI later.
-
 <p align="center">
-  <img src="https://via.placeholder.com/950x480/0F0F0F/FFFFFF?text=Deep+Research+Agent+UI+Preview" />
+  <img src="assets/ui-preview.png" alt="Deep Research Agent UI Preview" />
 </p>
 
 ---
@@ -96,26 +94,27 @@ graph TD
 
     E --> MEMO[Final Report<br/>(Markdown)]
     MEMO --> UI
+
 📦 Installation
 1️⃣ Clone the repository
 git clone https://github.com/Anshultiwari07/Deep-Research-Agent.git
 cd Deep-Research-Agent
 
-⚙️ Backend Setup (FastAPI)
+2️⃣ ⚙️ Backend Setup (FastAPI)
 pip install -r requirements.txt
 uvicorn main:app --reload
 
 
-Runs at:
+Backend runs at:
 👉 http://127.0.0.1:8000
 
-💻 Frontend Setup (React + Vite)
+3️⃣ 💻 Frontend Setup (React + Vite)
 cd frontend
 npm install
 npm run dev
 
 
-Runs at:
+Frontend runs at:
 👉 http://127.0.0.1:5173
 
 🔑 Environment Variables
@@ -126,17 +125,10 @@ HF_API_KEY=your_key
 TAVILY_API_KEY=your_key
 
 
-✔ .env is already ignored in .gitignore.
-
-🖼 Branding Assets
-assets/
-   ├── banner.png      # GitHub banner
-   └── logo.png        # Project logo
 
 🤝 Contributing
 
-Contributions are welcome!
-You can improve:
+Contributions are welcome! You can improve:
 
 Agent logic
 
