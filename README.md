@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-🚀 Deep Research Agent — Multi-Agent AI for Automated Research
-=======
 <p align="center">
   <img src="assets/banner.png" alt="Deep Research Agent Banner" />
 </p>
@@ -8,7 +5,6 @@
 <p align="center">
   <img src="assets/logo.png" alt="Deep Research Agent Logo" width="140" />
 </p>
->>>>>>> e115aab (Updated premium README)
 
 <h1 align="center">🚀 Deep Research Agent — Multi-Agent AI for Automated Research</h1>
 
@@ -47,13 +43,9 @@ Everything happens **automatically** through multi-agent reasoning.
 
 > Replace this placeholder screenshot with your real UI later.
 
-<<<<<<< HEAD
-Editor Agent – writes the final polished memo
-=======
 <p align="center">
   <img src="https://via.placeholder.com/950x480/0F0F0F/FFFFFF?text=Deep+Research+Agent+UI+Preview" />
 </p>
->>>>>>> e115aab (Updated premium README)
 
 ---
 
@@ -85,53 +77,6 @@ Editor Agent – writes the final polished memo
 
 ## 🧠 System Architecture
 
-<<<<<<< HEAD
-Toast notifications
-
-History panel + “New Chat”
-
-Light/Dark theme toggle
-
-🔹 Rich Markdown Reports
-
-Clean typography
-
-Headings, lists, structured formatting
-
-Analyst-grade memo clarity
-
-Beautiful readability
-
-🔹 Zero-Config Setup
-
-Backend: Python + FastAPI
-
-Frontend: React + Vite
-
-Orchestration: LangGraph
-
-Research Tools: Auto Web + RAG
-
-🧠 Architecture
-graph TD
-    U[User / Recruiter] --> UI[React + Vite\nChat-style Frontend]
-    UI --> API[FastAPI Backend\n/research endpoint]
-    API --> LG[LangGraph\nMulti-Agent Orchestrator]
-
-    LG --> P[Planner Agent\nTask Breakdown]
-    LG --> A[Analyst Agent\nWeb + Docs Research]
-    LG --> C[Curator Agent\nValidation & Evidence]
-    LG --> E[Editor Agent\nFinal Memo Writer]
-
-    A --> WEB[Auto Web / Search APIs\nCrawl & Extract]
-    A --> RAG[VectorDB / RAG Store]
-    C --> RAG
-    RAG --> LG
-
-    E --> MEMO[Final Research Memo\n(Markdown)]
-    MEMO --> UI
-
-=======
 ```mermaid
 graph TD
     U[User / Recruiter] --> UI[React + Vite<br/>Chat Interface]
@@ -151,7 +96,6 @@ graph TD
 
     E --> MEMO[Final Report<br/>(Markdown)]
     MEMO --> UI
->>>>>>> e115aab (Updated premium README)
 📦 Installation
 1️⃣ Clone the repository
 git clone https://github.com/Anshultiwari07/Deep-Research-Agent.git
@@ -191,12 +135,8 @@ assets/
 
 🤝 Contributing
 
-<<<<<<< HEAD
-PRs and ideas welcome — especially around:
-=======
 Contributions are welcome!
 You can improve:
->>>>>>> e115aab (Updated premium README)
 
 Agent logic
 
@@ -232,10 +172,6 @@ Every star motivates further improvements!
 
 🧠 Multi-model routing (OpenAI + HF + Local)
 
-<<<<<<< HEAD
-<p align="center">Built by <b>Anshul Tiwari</b></p>
-=======
 🌐 Domain-specific research extensions
 
 <p align="center"> Built by <b>Anshul Tiwari</b> </p> ```
->>>>>>> e115aab (Updated premium README)
