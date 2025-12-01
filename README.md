@@ -2,8 +2,6 @@
   <img src="assets/banner.png" alt="Deep Research Agent Banner" />
 </p>
 
-<p align="center">
-  <img src="assets/logo.png" alt="Deep Research Agent Logo" width="140" />
 </p>
 
 <h1 align="center">🚀 Deep Research Agent — Multi-Agent AI for Automated Research</h1>
