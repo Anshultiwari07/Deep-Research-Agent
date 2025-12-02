@@ -2,8 +2,6 @@
   <img src="assets/banner.png" alt="Deep Research Agent Banner" />
 </p>
 
-</p>
-
 <h1 align="center">🚀 Deep Research Agent — Multi-Agent AI for Automated Research</h1>
 
 <p align="center">
@@ -48,12 +46,14 @@ Everything happens **automatically** through multi-agent reasoning.
 ## 🧩 Key Features
 
 ### 🔹 Multi-Agent Intelligence (LangGraph)
+
 - **Planner Agent** → breaks the query into structured subtasks  
 - **Analyst Agent** → contextual web search + extraction  
 - **Curator Agent** → validation & cleanup  
 - **Editor Agent** → polished research memo  
 
 ### 🔹 Modern ChatGPT-Style Interface
+
 - Gradient chat bubbles  
 - Smooth animations  
 - “Agent is thinking…” indicators  
@@ -63,6 +63,7 @@ Everything happens **automatically** through multi-agent reasoning.
 - Chat history  
 
 ### 🔹 High-Quality Research Output
+
 - Analyst-grade summaries  
 - Structured sections  
 - Clean typography  
@@ -73,57 +74,66 @@ Everything happens **automatically** through multi-agent reasoning.
 
 ## 🧠 System Architecture
 
-mermaid
 graph TD
-    U[User / Recruiter] --> UI[React + Vite<br/>Chat Interface]
-    UI --> API[FastAPI Backend<br/>/research Endpoint]
+U[User / Recruiter] --> UI[React + Vite
+Chat Interface]
+UI --> API[FastAPI Backend
+/research Endpoint]
 
-    API --> LG[LangGraph<br/>Multi-Agent Engine]
+text
+API --> LG[LangGraph<br/>Multi-Agent Engine]
 
-    LG --> P[Planner Agent<br/>Task Breakdown]
-    LG --> A[Analyst Agent<br/>Web Research + Extraction]
-    LG --> C[Curator Agent<br/>Validation & Cleanup]
-    LG --> E[Editor Agent<br/>Final Memo Generation]
+LG --> P[Planner Agent<br/>Task Breakdown]
+LG --> A[Analyst Agent<br/>Web Research + Extraction]
+LG --> C[Curator Agent<br/>Validation & Cleanup]
+LG --> E[Editor Agent<br/>Final Memo Generation]
 
-    A --> WEB[Web Scrapers / Search APIs]
-    A --> RAG[RAG / VectorDB]
-    C --> RAG
-    RAG --> LG
+A --> WEB[Web Scrapers / Search APIs]
+A --> RAG[RAG / VectorDB]
+C --> RAG
+RAG --> LG
 
-    E --> MEMO[Final Report<br/>(Markdown)]
-    MEMO --> UI
+E --> MEMO[Final Report<br/>(Markdown)]
+MEMO --> UI
+text
 
+---
 
 ## 📦 Installation
 
-### 1️⃣ Clone Repository
-```bash
+### 1️⃣ Clone Repository & Backend Setup
+
+Clone repository
 git clone https://github.com/Anshultiwari07/Deep-Research-Agent.git
 cd Deep-Research-Agent
 
-# Backend 
+Backend
 pip install -r requirements.txt
 uvicorn main:app --reload
 
-Backend → http://127.0.0.1:8000
+Backend runs at:
+http://127.0.0.1:8000
+text
 
-# Frontend
+### 2️⃣ Frontend Setup
+
 cd frontend
 npm install
 npm run dev
 
-Frontend → http://127.0.0.1:5173
+Frontend runs at:
+http://127.0.0.1:5173
+text
 
-## 🔑 Environment Variables
+### 🔑 Environment Variables
 
 Create a `.env` file in the project root:
 
-env
 HF_API_KEY=your_key
 TAVILY_API_KEY=your_key
 
+text
+
+---
+
 <p align="center"><b>Built by Anshul Tiwari</b></p>
-
-
-
-
