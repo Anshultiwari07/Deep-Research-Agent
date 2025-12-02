@@ -144,6 +144,6 @@ TAVILY_API_KEY=your_key
 ---
 
 <p align="center"><b>Built by Anshul Tiwari</b></p>
-```
+
 
 
