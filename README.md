@@ -74,28 +74,33 @@ Everything happens **automatically** through multi-agent reasoning.
 
 ## 🧠 System Architecture
 
-graph TD
-U[User / Recruiter] --> UI[React + Vite
-Chat Interface]
-UI --> API[FastAPI Backend
-/research Endpoint]
+<p align="center">
+  <img src="https://img.shields.io/badge/Architecture-LangGraph%20%E2%80%A2%20FastAPI%20%E2%80%A2%20React-6A5ACD?style=for-the-badge" />
+</p>
 
-text
-API --> LG[LangGraph<br/>Multi-Agent Engine]
+<p align="center">
+  <b>From user question → multi-agent reasoning → curated research memo.</b>
+</p>
 
-LG --> P[Planner Agent<br/>Task Breakdown]
-LG --> A[Analyst Agent<br/>Web Research + Extraction]
-LG --> C[Curator Agent<br/>Validation & Cleanup]
-LG --> E[Editor Agent<br/>Final Memo Generation]
+```mermaid
+flowchart LR
+    U[User / Recruiter] --> UI[React + Vite<br/>Chat Interface]
+    UI --> API[FastAPI Backend<br/>/research Endpoint]
+    API --> LG[LangGraph<br/>Multi-Agent Engine]
 
-A --> WEB[Web Scrapers / Search APIs]
-A --> RAG[RAG / VectorDB]
-C --> RAG
-RAG --> LG
+    LG --> P[Planner Agent<br/>Task Breakdown]
+    LG --> A[Analyst Agent<br/>Web Research + Extraction]
+    LG --> C[Curator Agent<br/>Validation & Cleanup]
+    LG --> E[Editor Agent<br/>Final Memo Generation]
 
-E --> MEMO[Final Report<br/>(Markdown)]
-MEMO --> UI
-text
+    A --> WEB[Web Scrapers / Search APIs]
+    A --> RAG[RAG / Vector DB]
+    C --> RAG
+    RAG --> LG
+
+    E --> MEMO[Final Report<br/>(Markdown)]
+    MEMO --> UI
+
 
 ---
 
