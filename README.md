@@ -82,7 +82,7 @@ Everything happens **automatically** through multi-agent reasoning.
   <b>From user question → multi-agent reasoning → curated research memo.</b>
 </p>
 
-```mermaid
+```
 flowchart LR
     U[User / Recruiter] --> UI[React + Vite<br/>Chat Interface]
     UI --> API[FastAPI Backend<br/>/research Endpoint]
@@ -100,7 +100,7 @@ flowchart LR
 
     E --> MEMO[Final Report<br/>(Markdown)]
     MEMO --> UI
-
+```
 
 ---
 
@@ -108,37 +108,42 @@ flowchart LR
 
 ### 1️⃣ Clone Repository & Backend Setup
 
-Clone repository
+```
+# Clone repository
 git clone https://github.com/Anshultiwari07/Deep-Research-Agent.git
 cd Deep-Research-Agent
 
-Backend
+# Backend
 pip install -r requirements.txt
 uvicorn main:app --reload
 
-Backend runs at:
-http://127.0.0.1:8000
-text
+# Backend runs at:
+# http://127.0.0.1:8000
+```
 
 ### 2️⃣ Frontend Setup
 
+```
 cd frontend
 npm install
 npm run dev
 
-Frontend runs at:
-http://127.0.0.1:5173
-text
+# Frontend runs at:
+# http://127.0.0.1:5173
+```
 
 ### 🔑 Environment Variables
 
 Create a `.env` file in the project root:
 
+```
 HF_API_KEY=your_key
 TAVILY_API_KEY=your_key
-
-text
+```
 
 ---
 
 <p align="center"><b>Built by Anshul Tiwari</b></p>
+```
+
+
